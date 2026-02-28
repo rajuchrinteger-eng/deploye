@@ -18,6 +18,7 @@ import Collaborations from './components/Collaborations';
 import Supplies from './components/Supplies';
 import ChannelForm from './components/ChannelForm';
 import EnergyBackground from './components/ui/EnergyBackground';
+import ScrollPopupForm from './components/ScrollPopupForm';
 
 import AreaDevelopmentPage from './components/AreaDevelopmentPage';
 
@@ -91,6 +92,7 @@ function App() {
       </main>
       
       <Footer onNavigate={handleNavigate} />
+      <ScrollPopupForm />
     </div>
   );
 }
